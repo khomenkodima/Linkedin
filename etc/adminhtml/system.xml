@@ -1,0 +1,20 @@
+<?xml version="1.0" ?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Config:etc/system_file.xsd">
+    <system>
+        <tab id="redbox_app_settings" translate="label" sortOrder="10">
+            <label>Redbox settings</label>
+        </tab>
+        <section id="redbox_app_settings" showInDefault="1" showInWebsite="0" showInStore="0" translate="label">
+            <label>Redbox App Configuration</label>
+            <tab>redbox_app_settings</tab>
+            <resource>Redbox_Linkedin::redbox_app_settings</resource>
+            <group id="linkedin_profile" showInDefault="1" showInWebsite="0" showInStore="0" translate="label">
+                <label></label>
+                <field id="availability" showInDefault="1" showInWebsite="0" showInStore="0" translate="label" type="select">
+                    <source_model>Redbox\Linkedin\Model\Config\Source\Availability</source_model>
+                    <label>Linkedin profile form item availability</label>
+                </field>
+            </group>
+        </section>
+    </system>
+</config>

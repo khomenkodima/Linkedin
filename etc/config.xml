@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Store:etc/config.xsd">
+    <default>
+        <redbox_app_settings>
+            <linkedin_profile>
+                <availability>optional</availability>
+            </linkedin_profile>
+        </redbox_app_settings>
+    </default>
+</config>
